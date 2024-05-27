@@ -1,0 +1,97 @@
+.navbar{
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: rgb(30,30,30);
+
+}
+
+.logo{
+    object-fit: cover;
+    width: 4rem;
+    height: 3rem;
+}
+
+.menu-list{
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.active{
+    color: yellow;
+    border-bottom: 2px solid;
+}
+
+.menu-list:hover{
+    color: yellow;
+    padding-bottom: 5px;
+    border-bottom: 2px solid;
+}
+
+.btnn{
+    background: #fff !important;
+    border: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 1rem;
+    font-weight: 600;
+    gap: 10px;
+    border-radius: 50px;
+}
+
+.icon{
+    object-fit: cover;
+    width: 1rem;
+}
+
+.menu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: rgb(40,40,40);
+    border-radius: 1rem;
+}
+
+.list{
+    color: #fff;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    border-radius: 5px;
+    background: rgb(30,30,30);
+}
+
+.mobile-menu{
+    display: none;
+    height: 1.8rem;
+    object-fit: cover;
+}
+
+
+
+@media(max-width: 720px){
+    .mobile-menu{
+        display: block;
+    }
+    .desktop-menu{
+        display: none;
+    }
+    .btnn{
+        display: none;
+    }
+}
