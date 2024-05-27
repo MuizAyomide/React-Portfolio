@@ -1,0 +1,101 @@
+.contact-page{
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients h1{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+}
+
+.clients p{
+    font-weight: 100;
+    font-size: 1rem;
+    max-width: 100ch;
+    padding: 0 2rem;
+}
+
+.client-images{
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.client-image{
+    object-fit: cover;
+    width: 20%;
+    min-width: 9rem;
+    margin: auto;
+    padding: 0.23rem;
+}
+
+.contact h1{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+}
+
+.contact p{
+    font-weight: 100;
+    font-size: 1rem;
+    max-width: 100ch;
+    padding: 0 2rem;
+}
+
+.contact form{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    background: rgb(40, 40, 40);
+}
+
+.submit-btn{
+    background: #fff !important;
+    border: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    gap: 10px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.contact-icons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-icon{
+    object-fit: cover;
+    height: 3rem;
+    margin: 0.75rem;
+}
