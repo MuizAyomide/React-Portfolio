@@ -2,7 +2,7 @@ import React from 'react'
 import './Intro.css'
 import { Link } from 'react-scroll'
 import hire_me from '../../assets/hireme.png'
-import image from '../../assets/image.png'
+import image from '../../assets/my-image.png'
 
 const Intro = () => {
   return (
