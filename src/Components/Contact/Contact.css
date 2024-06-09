@@ -1,4 +1,4 @@
-.contact-page{
+.contact-page {
     min-height: calc(100vh - 4rem);
     width: 100vw;
     max-width: 60rem;
@@ -10,26 +10,26 @@
     justify-content: center;
 }
 
-.clients h1{
+.clients h1 {
     font-size: 3rem;
     font-weight: 600;
     padding-top: 3rem;
 }
 
-.clients p{
+.clients p {
     font-weight: 100;
     font-size: 1rem;
     max-width: 100ch;
     padding: 0 2rem;
 }
 
-.client-images{
+.client-images {
     margin: 1rem 0;
     display: flex;
     flex-wrap: wrap;
 }
 
-.client-image{
+.client-image {
     object-fit: cover;
     width: 20%;
     min-width: 9rem;
@@ -37,20 +37,20 @@
     padding: 0.23rem;
 }
 
-.contact h1{
+.contact h1 {
     font-size: 3rem;
     font-weight: 600;
     padding-top: 3rem;
 }
 
-.contact p{
+.contact p {
     font-weight: 100;
     font-size: 1rem;
     max-width: 100ch;
     padding: 0 2rem;
 }
 
-.contact form{
+.contact form {
     margin: 1rem;
     display: flex;
     flex-direction: column;
@@ -60,7 +60,9 @@
     max-width: 60rem;
 }
 
-.name, .email, .msg{
+.name,
+.email,
+.msg {
     font-size: medium;
     width: 100%;
     max-width: 40rem;
@@ -73,7 +75,7 @@
     background: rgb(40, 40, 40);
 }
 
-.submit-btn{
+.submit-btn {
     background: #fff !important;
     border: none;
     color: black;
@@ -87,14 +89,14 @@
     margin: 20px;
 }
 
-.contact-icons{
+.contact-icons {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
-.contact-icon{
+.contact-icon {
     object-fit: cover;
     height: 3rem;
     margin: 0.75rem;
