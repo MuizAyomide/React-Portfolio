@@ -42,10 +42,10 @@ const Contact = () => {
           <button className="submit-btn">Submit</button>
         </form>
         <div className="contact-icons">
-            <img src={facebook_icon} alt="" className="contact-icon"/>
-            <img src={instagram} alt="" className="contact-icon"/>
-            <img src={twitter} alt="" className="contact-icon"/>
-            <img src={youtube} alt="" className="contact-icon"/>
+          <img src={facebook_icon} alt="" className="contact-icon" />
+          <img src={instagram} alt="" className="contact-icon" />
+          <img src={twitter} alt="" className="contact-icon" />
+          <img src={youtube} alt="" className="contact-icon" />
         </div>
       </div>
     </div>
