@@ -1,4 +1,4 @@
-.work{
+.work {
     min-height: calc(100vh - 4rem);
     width: 100vw;
     max-width: 60rem;
@@ -11,20 +11,20 @@
     padding: o 1rem;
 }
 
-.work-title{
+.work-title {
     font-size: 3rem;
     font-weight: 600;
     padding-top: 3rem;
 }
 
-.work-desc{
+.work-desc {
     font-weight: 100;
     font-size: 1rem;
     max-width: 100ch;
     padding: 1rem 2rem;
 }
 
-.work-images{
+.work-images {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,19 +34,18 @@
     position: relative;
 }
 
-.image-container .image-link{
+.image-container .image-link {
     position: absolute;
     bottom: 40px;
-    left:    160px;
+    left: 160px;
     padding: 1rem;
     background: #fff;
 }
 
-.work-image{
+.work-image {
     object-fit: cover;
     width: 266px;
     height: 315px;
     margin: 0.5rem;
     border-radius: 10px;
 }
-
