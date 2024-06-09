@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     height: 5rem;
     width: 100vw;
     max-width: 75rem;
@@ -10,33 +10,32 @@
     position: sticky;
     top: 0;
     z-index: 3;
-    background: rgb(30,30,30);
-
+    background: rgb(30, 30, 30);
 }
 
-.logo{
+.logo {
     object-fit: cover;
     width: 4rem;
     height: 3rem;
 }
 
-.menu-list{
+.menu-list {
     margin: 1rem;
     cursor: pointer;
 }
 
-.active{
+.active {
     color: yellow;
     border-bottom: 2px solid;
 }
 
-.menu-list:hover{
+.menu-list:hover {
     color: yellow;
     padding-bottom: 5px;
     border-bottom: 2px solid;
 }
 
-.btnn{
+.btnn {
     background: #fff !important;
     border: none;
     color: black;
@@ -49,12 +48,12 @@
     border-radius: 50px;
 }
 
-.icon{
+.icon {
     object-fit: cover;
     width: 1rem;
 }
 
-.menu{
+.menu {
     position: absolute;
     top: 4rem;
     right: 2rem;
@@ -64,34 +63,32 @@
     padding: 0.5rem;
     height: fit-content;
     min-width: 15rem;
-    background: rgb(40,40,40);
+    background: rgb(40, 40, 40);
     border-radius: 1rem;
 }
 
-.list{
+.list {
     color: #fff;
     padding: 0.5rem 3rem;
     margin: 0.25rem;
     border-radius: 5px;
-    background: rgb(30,30,30);
+    background: rgb(30, 30, 30);
 }
 
-.mobile-menu{
+.mobile-menu {
     display: none;
     height: 1.8rem;
     object-fit: cover;
 }
 
-
-
-@media(max-width: 720px){
-    .mobile-menu{
+@media (max-width: 720px) {
+    .mobile-menu {
         display: block;
     }
-    .desktop-menu{
+    .desktop-menu {
         display: none;
     }
-    .btnn{
+    .btnn {
         display: none;
     }
 }
