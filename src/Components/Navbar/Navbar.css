@@ -14,7 +14,7 @@
 }
 
 .logo {
-    object-fit: cover;
+    object-fit: contain;
     width: 4rem;
     height: 3rem;
 }
@@ -25,12 +25,12 @@
 }
 
 .active {
-    color: yellow;
+    color: rgb(204, 153, 51);
     border-bottom: 2px solid;
 }
 
 .menu-list:hover {
-    color: yellow;
+    color: rgb(204, 153, 51);
     padding-bottom: 5px;
     border-bottom: 2px solid;
 }
