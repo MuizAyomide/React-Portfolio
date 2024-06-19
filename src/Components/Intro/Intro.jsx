@@ -11,12 +11,14 @@ const Intro = () => {
         <span className="greeting">Hello,</span>
         <span className="introduction">
             I'm <span className='intro-name'>Akinrinola Muiz Ayomide</span> <br />
-            A FrontEnd Developer
+           <span className='title'> A FrontEnd Developer</span>
         </span>
         <p className='intro-text'>  A skilled Frontend Developer with experience for crafting exceptional visually appealing and user friendly websites.</p>
         <Link ><button className='btn'><img src={hire_me} alt="" className="icon"/>Hire Me</button></Link>
       </div>
-      <img src={image} alt="" className='image'/>
+      <div className="image">
+      <img src={image} alt=""/>
+      </div>
     </div>
   )
 }
