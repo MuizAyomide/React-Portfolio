@@ -6,20 +6,22 @@
     overflow: hidden;
     position: relative;
     gap: 20px;
+    display: flex;
 }
 
 .image {
-    position: absolute;
+    /* position: absolute; */
     top: -0rem;
     right: 0;
     object-fit: cover;
     z-index: -1;
     height: 100vh;
+    flex: 1;
 }
 
 .intro-content {
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh; */
+    /* width: 50px; */
     padding: 2rem;
     font-size: 3rem;
     font-weight: 700;
@@ -27,6 +29,8 @@
     flex-direction: column;
     justify-content: center;
     color: white;
+    flex: 1;
+    margin-left: 6rem;
 }
 
 .greeting {
@@ -41,8 +45,18 @@
     max-width: 60ch;
 }
 
+.introduction{
+    font-size: 2rem;
+}
+
+.introduction .title{
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
 .intro-name {
-    color: yellow;
+    color: rgb(204, 153, 51);
+    font-size: 1.5rem
 }
 
 .icon {
@@ -65,3 +79,13 @@
 }
 
 /* media query */
+@media (max-width: 720px) {
+
+    .image {
+        position: absolute;
+        margin: auto;
+    }
+    .intro-content {
+        margin: 0;
+    }
+}
