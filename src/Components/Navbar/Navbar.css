@@ -61,14 +61,15 @@
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
+    
     height: fit-content;
     min-width: 15rem;
-    background: rgb(40, 40, 40);
+    /* background: url(../../assets/video-1.mp4); */
     border-radius: 1rem;
 }
 
 .list {
-    color: #fff;
+    color: #ffee00;
     padding: 0.5rem 3rem;
     margin: 0.25rem;
     border-radius: 5px;
