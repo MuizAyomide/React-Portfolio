@@ -8,8 +8,10 @@ import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
+    
     <div className="app">
       <>
+      {/* <video src="./assets/video-2.mp4">Hello</video> */}
         <Navbar />
         <Intro />
         <Skills />
