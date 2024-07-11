@@ -24,6 +24,11 @@
     padding: 1rem 2rem;
 }
 
+.image-container{
+    position: relative;
+
+}
+
 .work-images {
     display: flex;
     align-items: center;
@@ -31,15 +36,17 @@
     width: 100wv;
     max-width: 65rem;
     flex-wrap: wrap;
-    position: relative;
+    
 }
 
-.image-container .image-link {
+ .image-link {
     position: absolute;
     bottom: 40px;
-    left: 160px;
+    left: 90px;
     padding: 1rem;
     background: #fff;
+    border-radius: 5px;
+    font-weight: 600;
 }
 
 .work-image {
