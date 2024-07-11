@@ -37,6 +37,7 @@ const Contact = () => {
             cols="4"
             rows="5"
             placeholder="Your Message"
+            
             className="msg"
           ></textarea>
           <button className="submit-btn">Submit</button>
@@ -49,6 +50,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+
   );
 };
 
