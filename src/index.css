@@ -7,10 +7,12 @@
   text-decoration: none;
   background: transparent;
   font-family: Poppins, sans-serif;
+  
 }
 
 body {
-  background: rgb(30, 30, 30);
+  background: url(./assets/video-2.mp4);
+  background-size: cover;
   color: #fff;
   overflow: hidden;
   overflow-y: scroll;
