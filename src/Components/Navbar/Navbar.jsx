@@ -71,11 +71,13 @@ const Navbar = () => {
         Contact Me
       </button>
       
+
       
       <img src={menu} alt="" className="mobile-menu" style={{cursor: 'pointer'}} onClick={()=>setShowMenu(!showMenu)} />
       <div className="menu" style={{display: showMenu? 'flex':'none'}}>
         <Link
           activeClass="active"
+          
           to="intro"
           spy={true}
           smooth={true}
