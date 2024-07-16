@@ -14,6 +14,7 @@ const App = () => {
       {/* <video src="./assets/video-2.mp4">Hello</video> */}
         <Navbar />
         <Intro />
+        
         <Skills />
         <Works />
         <Contact />
