@@ -6,6 +6,7 @@ const Footer = () => {
       Copyright &copy; 2024, Akinrinola Muiz A. All right reserved.
     </div>
   );
+  
 };
 
 export default Footer;
