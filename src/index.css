@@ -6,14 +6,17 @@
   box-sizing: border-box;
   text-decoration: none;
   background: transparent;
+
   font-family: Poppins, sans-serif;
   
 }
 
 body {
-  background: url(./assets/);
+  /* background:url(./assets/video-1.mp4); */
+
   background-size: cover;
   color: #fff;
   overflow: hidden;
+  
   overflow-y: scroll;
 }
