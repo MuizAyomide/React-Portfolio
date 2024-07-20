@@ -80,6 +80,7 @@ const Navbar = () => {
           
           to="intro"
           spy={true}
+          
           smooth={true}
           offset={-100}
           duration={500}
